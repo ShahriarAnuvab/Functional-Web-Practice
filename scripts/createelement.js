@@ -26,7 +26,7 @@ ul2.innerHTML = `
 `;
 const img = document.createElement('img');
 
-img.setAttribute('src', '../images/images.jpeg');
+img.setAttribute('src', '../images/img.jpeg');
 main.appendChild(img);
 main.appendChild(sec);
 main.append(ul2);
