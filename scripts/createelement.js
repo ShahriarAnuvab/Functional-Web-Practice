@@ -60,5 +60,17 @@ const listDeleteBtn = document.getElementById('listDeleteBtn').addEventListener(
     deleteList.removeChild(deleteList.firstChild);
 
 })
+// const randomT = document.getElementById('randomT').addEventListener('mouseenter', function(){
+//     console.log('connected');
+// })
+// const randomT = document.getElementById('randomT').addEventListener('focus', function(){
+//     console.log('connected');
+// })
+// const randomT = document.getElementById('randomT').addEventListener('keydown', function(){
+//     console.log('connected');
+// })
+const randomT = document.getElementById('randomT').addEventListener('blur', function(){
+    console.log('connected');
+})
 
 
